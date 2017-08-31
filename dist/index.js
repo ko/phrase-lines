@@ -1,8 +1,8 @@
 'use strict';
 
-exports.PhraseLines = function PhraseLines(phrase, width, height, fontSize) {
+exports.PhraseLines = function PhraseLines(phrase, width, height) {
   var newLines = [];
-  var calcSize = fontSize;
+  var calcSize = 24;
 
   var words = phrase.replace(/^\n/, '').replace(/\n/g, ' ').split(' ');
 

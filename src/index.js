@@ -1,6 +1,6 @@
-exports.PhraseLines = function PhraseLines(phrase, width, height, fontSize) {
+exports.PhraseLines = function PhraseLines(phrase, width, height) {
   let newLines = [];
-  let calcSize = fontSize;
+  let calcSize = 24;
 
   const words = phrase.replace(/^\n/, '').replace(/\n/g, ' ').split(' ');
 

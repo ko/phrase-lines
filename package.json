@@ -1,6 +1,6 @@
 {
   "name": "phrase-lines",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Break a phrase into an array of lines. This takes into account the viewport size.",
   "main": "dist/index.js",
   "scripts": {
