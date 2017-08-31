@@ -1,0 +1,24 @@
+{
+  "name": "phrase-lines",
+  "version": "1.0.0",
+  "description": "Break a phrase into an array of lines. This takes into account the viewport size.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --presets=latest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ko/phrase-lines.git"
+  },
+  "author": "Kenneth Ko",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/ko/phrase-lines/issues"
+  },
+  "homepage": "https://github.com/ko/phrase-lines#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-latest": "^6.24.1"
+  }
+}
